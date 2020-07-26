@@ -19,6 +19,7 @@ function App() {
         <CustomNavbar />
           <Switch>
             <Route exact path='/' component={Home} />
+            <Route path='/website/' component={Home} />
             <Route path='/about' component={About} />
             <Route path='/others' component={Others} />
             <Route component={Mismatch} />
