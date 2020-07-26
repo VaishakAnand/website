@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
+// import NavDropdown from 'react-bootstrap/NavDropdown'
 import { LinkContainer } from 'react-router-bootstrap';
 
 function CustomNavbar(props) {
@@ -21,7 +21,7 @@ function CustomNavbar(props) {
 
       <Navbar collapseOnSelect expand="sm" bg="purp" variant="dark">
         <LinkContainer to='/'>
-      <Navbar.Brand href="/">{' '}Home</Navbar.Brand>
+      <Navbar.Brand href="/">{'  '}Home</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
